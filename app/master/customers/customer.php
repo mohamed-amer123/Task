@@ -4,7 +4,7 @@ namespace master\customers;
 use app\controllers\Controller as Controller;
 
 class Customer extends Controller{
-	var $name ;
+	public $name ;
 
 	public function __construct($value)
 	{
