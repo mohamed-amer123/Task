@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'app\\controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
-    'master\\customers\\Customer' => $baseDir . '/app/master/customers/Customer.php',
+    'CarShop' => $baseDir . '/app/models/CarShop.php',
+    'CarShopService' => $baseDir . '/app/services/CarShopService.php',
+    'Customer' => $baseDir . '/app/models/Customer.php',
+    'IService' => $baseDir . '/app/models/shopServices/IService.php',
+    'InspectionService' => $baseDir . '/app/models/shopServices/InspectionService.php',
+    'OilChangeService' => $baseDir . '/app/models/shopServices/OilChangeService.php',
+    'TireRotationService' => $baseDir . '/app/models/shopServices/TireRotationService.php',
+    'app\\models\\ServiceInfo' => $baseDir . '/app/models/shopServices/ServiceInfo.php',
 );

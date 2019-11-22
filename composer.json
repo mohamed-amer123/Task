@@ -1,8 +1,9 @@
 {
 	"autoload":{
 		"classmap":[
-			"app/master/customers",
-			"app/controllers"
+			"app/models/shopServices",
+			"app/models",
+			"app/services"
 		]
 
 	}

@@ -7,8 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitf4d490144029af23def003195c352784
 {
     public static $classMap = array (
-        'app\\controllers\\Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
-        'master\\customers\\Customer' => __DIR__ . '/../..' . '/app/master/customers/Customer.php',
+        'CarShop' => __DIR__ . '/../..' . '/app/models/CarShop.php',
+        'CarShopService' => __DIR__ . '/../..' . '/app/services/CarShopService.php',
+        'Customer' => __DIR__ . '/../..' . '/app/models/Customer.php',
+        'IService' => __DIR__ . '/../..' . '/app/models/shopServices/IService.php',
+        'InspectionService' => __DIR__ . '/../..' . '/app/models/shopServices/InspectionService.php',
+        'OilChangeService' => __DIR__ . '/../..' . '/app/models/shopServices/OilChangeService.php',
+        'TireRotationService' => __DIR__ . '/../..' . '/app/models/shopServices/TireRotationService.php',
+        'app\\models\\ServiceInfo' => __DIR__ . '/../..' . '/app/models/shopServices/ServiceInfo.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
